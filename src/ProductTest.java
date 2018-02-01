@@ -13,7 +13,7 @@ public class ProductTest {
 		assertEquals(product1.getProductPrice(),17500);
 	}
 	
-	@Test
+	@Test(timeout=1000)
 	public void testInsertProdeuct(){
 		Product product2 = new Product();
 	//	product2.insertProduct("P004","Galaxy A",26000);
