@@ -16,7 +16,7 @@ public class ProductTest {
 	@Test
 	public void testInsertProdeuct(){
 		Product product2 = new Product();
-		product2.insertProduct("P004","Galaxy A",26000);
+	//	product2.insertProduct("P004","Galaxy A",26000);
 		assertEquals(product2.queryProductId("P002"),"P002");
 		assertEquals(product2.queryProductName("P002"),"Note7");
 		assertEquals(product2.queryProductPrice("P002"),29000);
